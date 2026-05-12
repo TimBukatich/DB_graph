@@ -1,0 +1,912 @@
+<mxfile host="app.diagrams.net" pages="8">
+  <diagram name="Streamer" id="page-streamer">
+    <mxGraphModel dx="1488" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontStyle=1;fontSize=16;align=center;" value="NODE TABLE: Streamer" vertex="1">
+          <mxGeometry height="30" width="500" x="500" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="xQcOW (xQc)" vertex="1">
+          <mxGeometry height="125" width="260" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1t" parent="s1" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 1&lt;br&gt;country = Канада | language = EN&lt;br&gt;followers = 11 800 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="shroud" vertex="1">
+          <mxGeometry height="125" width="260" x="330" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2t" parent="s2" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 2&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 9 200 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="Ninja" vertex="1">
+          <mxGeometry height="125" width="260" x="620" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3t" parent="s3" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 3&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 18 700 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="pokimane" vertex="1">
+          <mxGeometry height="125" width="260" x="910" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s4t" parent="s4" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 4&lt;br&gt;country = Канада | language = EN&lt;br&gt;followers = 10 400 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="HasanAbi" vertex="1">
+          <mxGeometry height="125" width="260" x="1200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5t" parent="s5" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 5&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 2 600 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="summit1g" vertex="1">
+          <mxGeometry height="125" width="260" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s6t" parent="s6" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 6&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 6 100 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="TimTheTatman" vertex="1">
+          <mxGeometry height="125" width="260" x="330" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s7t" parent="s7" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 7&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 7 200 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="DrLupo" vertex="1">
+          <mxGeometry height="125" width="260" x="620" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s8t" parent="s8" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 8&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 4 700 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="valkyrae" vertex="1">
+          <mxGeometry height="125" width="260" x="910" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s9t" parent="s9" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 9&lt;br&gt;country = США | language = EN&lt;br&gt;followers = 3 800 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="DisguisedToast" vertex="1">
+          <mxGeometry height="125" width="260" x="1200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s10t" parent="s10" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 10&lt;br&gt;country = Канада | language = EN&lt;br&gt;followers = 2 300 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="Anomaly" vertex="1">
+          <mxGeometry height="125" width="260" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s11t" parent="s11" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 11&lt;br&gt;country = Швеция | language = EN&lt;br&gt;followers = 990 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s12" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=28;html=1;" value="forsen" vertex="1">
+          <mxGeometry height="125" width="260" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s12t" parent="s12" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 12&lt;br&gt;country = Швеция | language = EN&lt;br&gt;followers = 1 400 000&lt;br&gt;status = Partner" vertex="1">
+          <mxGeometry height="97" width="260" y="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Platform" id="page-platform">
+    <mxGraphModel dx="1414" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title2" parent="1" style="text;html=1;fontStyle=1;fontSize=16;align=center;" value="NODE TABLE: Platform" vertex="1">
+          <mxGeometry height="30" width="500" x="400" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pl1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;html=1;" value="Twitch" vertex="1">
+          <mxGeometry height="130" width="240" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pl1t" parent="pl1" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 1&lt;br&gt;website = twitch.tv&lt;br&gt;founded = 2011&lt;br&gt;HQ = Сан-Франциско, США&lt;br&gt;monthly_users = 140.0 млн" vertex="1">
+          <mxGeometry height="102" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pl2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;html=1;" value="YouTube" vertex="1">
+          <mxGeometry height="130" width="240" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pl2t" parent="pl2" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 2&lt;br&gt;website = youtube.com&lt;br&gt;founded = 2005&lt;br&gt;HQ = Сан-Бруно, США&lt;br&gt;monthly_users = 800.0 млн" vertex="1">
+          <mxGeometry height="102" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pl3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;html=1;" value="Kick" vertex="1">
+          <mxGeometry height="130" width="240" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pl3t" parent="pl3" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 3&lt;br&gt;website = kick.com&lt;br&gt;founded = 2022&lt;br&gt;HQ = Окленд, Новая Зеландия&lt;br&gt;monthly_users = 50.0 млн" vertex="1">
+          <mxGeometry height="102" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pl4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;html=1;" value="Facebook Gaming" vertex="1">
+          <mxGeometry height="130" width="240" x="850" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pl4t" parent="pl4" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 4&lt;br&gt;website = fb.gg&lt;br&gt;founded = 2018&lt;br&gt;HQ = Менло-Парк, США&lt;br&gt;monthly_users = 38.0 млн" vertex="1">
+          <mxGeometry height="102" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pl5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=28;html=1;" value="Trovo" vertex="1">
+          <mxGeometry height="130" width="240" x="1120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pl5t" parent="pl5" style="text;html=1;whiteSpace=wrap;fontSize=11;align=left;spacingLeft=8;verticalAlign=top;" value="id = 5&lt;br&gt;website = trovo.live&lt;br&gt;founded = 2020&lt;br&gt;HQ = Шэньчжэнь, Китай&lt;br&gt;monthly_users = 25.0 млн" vertex="1">
+          <mxGeometry height="102" width="240" y="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="GameCategory + Game" id="page-gamecategory">
+    <mxGraphModel dx="1571" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-gc" parent="1" style="text;html=1;fontStyle=1;fontSize=15;align=center;" value="NODE TABLE: GameCategory" vertex="1">
+          <mxGeometry height="28" width="400" x="40" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="title-g" parent="1" style="text;html=1;fontStyle=1;fontSize=15;align=center;" value="NODE TABLE: Game" vertex="1">
+          <mxGeometry height="28" width="400" x="880" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="gc1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Battle Royale" vertex="1">
+          <mxGeometry height="95" width="190" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gc1t" parent="gc1" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=1 | genre=Шутер&lt;br&gt;avg_viewers=95 000&lt;br&gt;is_esports=1" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="FPS" vertex="1">
+          <mxGeometry height="95" width="190" x="250" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gc2t" parent="gc2" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=2 | genre=Шутер&lt;br&gt;avg_viewers=110 000&lt;br&gt;is_esports=1" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="MOBA" vertex="1">
+          <mxGeometry height="95" width="190" x="460" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gc3t" parent="gc3" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=3 | genre=Стратегия&lt;br&gt;avg_viewers=80 000&lt;br&gt;is_esports=1" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Just Chatting" vertex="1">
+          <mxGeometry height="95" width="190" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gc4t" parent="gc4" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=4 | genre=Ток-шоу&lt;br&gt;avg_viewers=200 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Survival" vertex="1">
+          <mxGeometry height="95" width="190" x="250" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gc5t" parent="gc5" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=5 | genre=Выживание&lt;br&gt;avg_viewers=45 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc6" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Card Games" vertex="1">
+          <mxGeometry height="95" width="190" x="460" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gc6t" parent="gc6" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=6 | genre=Карточные&lt;br&gt;avg_viewers=30 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc7" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="MMO RPG" vertex="1">
+          <mxGeometry height="95" width="190" x="40" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="gc7t" parent="gc7" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=7 | genre=Ролевые&lt;br&gt;avg_viewers=60 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Horror" vertex="1">
+          <mxGeometry height="95" width="190" x="250" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="gc8t" parent="gc8" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=8 | genre=Хоррор&lt;br&gt;avg_viewers=38 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc9" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Sports Simulation" vertex="1">
+          <mxGeometry height="95" width="190" x="460" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="gc9t" parent="gc9" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=9 | genre=Спорт&lt;br&gt;avg_viewers=55 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc10" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Indie" vertex="1">
+          <mxGeometry height="95" width="190" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gc10t" parent="gc10" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=10 | genre=Инди&lt;br&gt;avg_viewers=25 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc11" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Strategy" vertex="1">
+          <mxGeometry height="95" width="190" x="250" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gc11t" parent="gc11" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=11 | genre=Стратегия&lt;br&gt;avg_viewers=40 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gc12" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;startSize=25;html=1;" value="IRL" vertex="1">
+          <mxGeometry height="95" width="190" x="460" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gc12t" parent="gc12" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=12 | genre=Реалити&lt;br&gt;avg_viewers=70 000&lt;br&gt;is_esports=0" vertex="1">
+          <mxGeometry height="70" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Fortnite" vertex="1">
+          <mxGeometry height="95" width="200" x="880" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="g1t" parent="g1" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=1 | Epic Games&lt;br&gt;year=2017 | cat_id=1" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Counter-Strike 2" vertex="1">
+          <mxGeometry height="95" width="200" x="1100" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="g2t" parent="g2" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=2 | Valve&lt;br&gt;year=2023 | cat_id=2" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Valorant" vertex="1">
+          <mxGeometry height="95" width="200" x="1320" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="g3t" parent="g3" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=3 | Riot Games&lt;br&gt;year=2020 | cat_id=2" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g4" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="League of Legends" vertex="1">
+          <mxGeometry height="95" width="200" x="880" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="g4t" parent="g4" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=4 | Riot Games&lt;br&gt;year=2009 | cat_id=3" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g5" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Minecraft" vertex="1">
+          <mxGeometry height="95" width="200" x="1100" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="g5t" parent="g5" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=5 | Mojang Studios&lt;br&gt;year=2011 | cat_id=5" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g6" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Apex Legends" vertex="1">
+          <mxGeometry height="95" width="200" x="1320" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="g6t" parent="g6" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=6 | Respawn Ent.&lt;br&gt;year=2019 | cat_id=1" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g7" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="World of Warcraft" vertex="1">
+          <mxGeometry height="95" width="200" x="880" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="g7t" parent="g7" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=7 | Blizzard&lt;br&gt;year=2004 | cat_id=7" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g8" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Hearthstone" vertex="1">
+          <mxGeometry height="95" width="200" x="1100" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="g8t" parent="g8" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=8 | Blizzard&lt;br&gt;year=2014 | cat_id=6" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g9" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Among Us" vertex="1">
+          <mxGeometry height="95" width="200" x="1320" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="g9t" parent="g9" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=9 | Innersloth&lt;br&gt;year=2018 | cat_id=10" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g10" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="GTA V" vertex="1">
+          <mxGeometry height="95" width="200" x="880" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="g10t" parent="g10" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=10 | Rockstar Games&lt;br&gt;year=2013 | cat_id=5" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g11" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Rust" vertex="1">
+          <mxGeometry height="95" width="200" x="1100" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="g11t" parent="g11" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=11 | Facepunch&lt;br&gt;year=2013 | cat_id=5" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g12" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Escape from Tarkov" vertex="1">
+          <mxGeometry height="95" width="200" x="880" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="g12t" parent="g12" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=12 | Battlestate&lt;br&gt;year=2016 | cat_id=2" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g13" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="FIFA 24" vertex="1">
+          <mxGeometry height="95" width="200" x="1100" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="g13t" parent="g13" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=13 | EA Sports&lt;br&gt;year=2023 | cat_id=9" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g14" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Dota 2" vertex="1">
+          <mxGeometry height="95" width="200" x="1320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="g14t" parent="g14" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=14 | Valve&lt;br&gt;year=2013 | cat_id=3" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="g15" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Dead by Daylight" vertex="1">
+          <mxGeometry height="95" width="200" x="1320" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="g15t" parent="g15" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=15 | Behaviour Int.&lt;br&gt;year=2016 | cat_id=8" vertex="1">
+          <mxGeometry height="70" width="200" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Viewer" id="page-viewer">
+    <mxGraphModel dx="1571" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-v" parent="1" style="text;html=1;fontStyle=1;fontSize=16;align=center;" value="NODE TABLE: Viewer" vertex="1">
+          <mxGeometry height="28" width="500" x="500" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="GamingFan2001" vertex="1">
+          <mxGeometry height="105" width="230" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1t" parent="v1" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=1 | country=США&lt;br&gt;tier=Tier2&lt;br&gt;watch_h=4 200" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="StreamWatcher_RU" vertex="1">
+          <mxGeometry height="105" width="230" x="290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2t" parent="v2" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=2 | country=Россия&lt;br&gt;tier=Tier1&lt;br&gt;watch_h=1 800" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="NordicViewer" vertex="1">
+          <mxGeometry height="105" width="230" x="540" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3t" parent="v3" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=3 | country=Норвегия&lt;br&gt;tier=Tier3&lt;br&gt;watch_h=7 600" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="CasualGamer_DE" vertex="1">
+          <mxGeometry height="105" width="230" x="790" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4t" parent="v4" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=4 | country=Германия&lt;br&gt;tier=Free&lt;br&gt;watch_h=320" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="EsportsFan_KR" vertex="1">
+          <mxGeometry height="105" width="230" x="1040" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v5t" parent="v5" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=5 | country=Ю.Корея&lt;br&gt;tier=Tier1&lt;br&gt;watch_h=5 100" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="TwitchAddict_BR" vertex="1">
+          <mxGeometry height="105" width="230" x="1290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6t" parent="v6" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=6 | country=Бразилия&lt;br&gt;tier=Tier2&lt;br&gt;watch_h=9 200" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="LurkerOnly_JP" vertex="1">
+          <mxGeometry height="105" width="230" x="40" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v7t" parent="v7" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=7 | country=Япония&lt;br&gt;tier=Free&lt;br&gt;watch_h=180" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="SubGifterPro_CA" vertex="1">
+          <mxGeometry height="105" width="230" x="290" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v8t" parent="v8" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=8 | country=Канада&lt;br&gt;tier=Tier3&lt;br&gt;watch_h=12 400" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v9" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="NewbieChill_FR" vertex="1">
+          <mxGeometry height="105" width="230" x="540" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v9t" parent="v9" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=9 | country=Франция&lt;br&gt;tier=Free&lt;br&gt;watch_h=95" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v10" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="HypeTrainMax_AU" vertex="1">
+          <mxGeometry height="105" width="230" x="790" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v10t" parent="v10" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=10 | country=Австралия&lt;br&gt;tier=Tier1&lt;br&gt;watch_h=3 300" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v11" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="ChatSpammer_MX" vertex="1">
+          <mxGeometry height="105" width="230" x="1040" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v11t" parent="v11" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=11 | country=Мексика&lt;br&gt;tier=Tier2&lt;br&gt;watch_h=2 700" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;startSize=25;html=1;" value="VodReviewer_PL" vertex="1">
+          <mxGeometry height="105" width="230" x="1290" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v12t" parent="v12" style="text;html=1;whiteSpace=wrap;fontSize=10;align=left;spacingLeft=6;verticalAlign=top;" value="id=12 | country=Польша&lt;br&gt;tier=Tier1&lt;br&gt;watch_h=1 450" vertex="1">
+          <mxGeometry height="80" width="230" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Streams" id="page-streams">
+    <mxGraphModel dx="1664" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-st" parent="1" style="text;html=1;fontStyle=1;fontSize=16;align=center;" value="EDGE TABLE: Streams  (Streamer → Platform)" vertex="1">
+          <mxGeometry height="28" width="700" x="350" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="ep-tw" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Twitch" vertex="1">
+          <mxGeometry height="50" width="160" x="1100" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ep-yt" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="YouTube" vertex="1">
+          <mxGeometry height="50" width="160" x="1100" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ep-ki" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;html=1;" value="Kick" vertex="1">
+          <mxGeometry height="50" width="160" x="1100" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="es1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="xQcOW" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="shroud" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="es3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Ninja" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="es4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="pokimane" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="es5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="HasanAbi" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="es6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="summit1g" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="es7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="TimTheTatman" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="es8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="DrLupo" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="es9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="valkyrae" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="es10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Disguised_Toast" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="es11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Anomaly" vertex="1">
+          <mxGeometry height="50" width="140" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es12" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="forsen" vertex="1">
+          <mxGeometry height="50" width="140" x="260" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s1-tw" edge="1" parent="1" source="es1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Exclusive; 58 000 avg; $200 000/m; от 2016-05-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s2-tw" edge="1" parent="1" source="es2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Non-exclusive; 42 000 avg; $95 000/m; от 2023-03-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s3-tw" edge="1" parent="1" source="es3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Exclusive; 85 000 avg; $350 000/m; от 2011-06-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s4-tw" edge="1" parent="1" source="es4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Exclusive; 38 000 avg; $120 000/m; от 2022-01-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s5-tw" edge="1" parent="1" source="es5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Exclusive; 32 000 avg; $80 000/m; от 2019-09-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s6-tw" edge="1" parent="1" source="es6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Exclusive; 28 000 avg; $70 000/m; от 2012-03-08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s11-tw" edge="1" parent="1" source="es11" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Non-exclusive; 12 000 avg; $25 000/m; от 2015-01-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s12-tw" edge="1" parent="1" source="es12" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="ep-tw" value="[Streams] Non-exclusive; 15 000 avg; $30 000/m; от 2013-04-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s7-yt" edge="1" parent="1" source="es7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" target="ep-yt" value="[Streams] Exclusive; 30 000 avg; $180 000/m; от 2021-09-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s8-yt" edge="1" parent="1" source="es8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" target="ep-yt" value="[Streams] Exclusive; 22 000 avg; $150 000/m; от 2021-08-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s9-yt" edge="1" parent="1" source="es9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#b85450;fontColor=#b85450;" target="ep-yt" value="[Streams] Non-exclusive; 45 000 avg; $160 000/m; от 2020-10-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-s10-ki" edge="1" parent="1" source="es10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;endArrow=block;endFill=1;strokeColor=#9673a6;fontColor=#9673a6;" target="ep-ki" value="[Streams] Trial; 18 000 avg; $40 000/m; от 2023-06-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="PlaysGame" id="page-playsgame">
+    <mxGraphModel dx="1768" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-pg" parent="1" style="text;html=1;fontStyle=1;fontSize=16;align=center;" value="EDGE TABLE: PlaysGame  (Streamer → Game)" vertex="1">
+          <mxGeometry height="28" width="700" x="400" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="xQcOW" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="shroud" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Ninja" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="pokimane" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="summit1g" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="TimTheTatman" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="DisguisedToast" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="forsen" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Anomaly" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="HasanAbi" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="valkyrae" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-s12" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=22;html=1;" value="DrLupo" vertex="1">
+          <mxGeometry height="45" width="130" x="40" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g1" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="GTA V" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g2" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Minecraft" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g3" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Valorant" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g4" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Counter-Strike 2" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g5" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Fortnite" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g6" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Apex Legends" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g7" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Among Us" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g8" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="League of Legends" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g9" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Rust" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-g10" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;startSize=22;html=1;" value="Hearthstone" vertex="1">
+          <mxGeometry height="45" width="170" x="1400" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e1" edge="1" parent="1" source="pg-s1" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g1" value="[PlaysGame] 2018-07-10; 1200h; peak=72K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e2" edge="1" parent="1" source="pg-s1" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g2" value="[PlaysGame] 2019-03-22; 380h; peak=45K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e3" edge="1" parent="1" source="pg-s2" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#d6b656;dashed=1;strokeWidth=2;fontColor=#a66a00;" target="pg-g3" value="[PlaysGame] 2020-01-15; 2100h; peak=180K; spon=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e4" edge="1" parent="1" source="pg-s2" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#d6b656;dashed=1;strokeWidth=2;fontColor=#a66a00;" target="pg-g4" value="[PlaysGame] 2018-02-01; 950h; peak=95K; spon=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e5" edge="1" parent="1" source="pg-s3" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#d6b656;dashed=1;strokeWidth=2;fontColor=#a66a00;" target="pg-g5" value="[PlaysGame] 2017-07-25; 3400h; peak=320K; spon=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e6" edge="1" parent="1" source="pg-s3" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#d6b656;dashed=1;strokeWidth=2;fontColor=#a66a00;" target="pg-g6" value="[PlaysGame] 2022-06-10; 210h; peak=62K; spon=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e7" edge="1" parent="1" source="pg-s4" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g7" value="[PlaysGame] 2021-04-01; 430h; peak=55K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e8" edge="1" parent="1" source="pg-s4" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g8" value="[PlaysGame] 2019-11-05; 180h; peak=38K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e9" edge="1" parent="1" source="pg-s5" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g9" value="[PlaysGame] 2020-09-15; 620h; peak=48K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e10" edge="1" parent="1" source="pg-s5" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g4" value="[PlaysGame] 2016-08-20; 1800h; peak=68K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e11" edge="1" parent="1" source="pg-s6" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g5" value="[PlaysGame] 2021-01-03; 540h; peak=75K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e12" edge="1" parent="1" source="pg-s7" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g10" value="[PlaysGame] 2019-02-14; 310h; peak=35K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e13" edge="1" parent="1" source="pg-s7" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g7" value="[PlaysGame] 2020-10-01; 220h; peak=40K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e14" edge="1" parent="1" source="pg-s8" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g10" value="[PlaysGame] 2014-05-01; 4200h; peak=28K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e15" edge="1" parent="1" source="pg-s9" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g4" value="[PlaysGame] 2022-03-10; 160h; peak=20K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e16" edge="1" parent="1" source="pg-s10" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g1" value="[PlaysGame] 2018-09-01; 480h; peak=22K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e17" edge="1" parent="1" source="pg-s11" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#d6b656;dashed=1;strokeWidth=2;fontColor=#a66a00;" target="pg-g3" value="[PlaysGame] 2023-01-20; 140h; peak=55K; spon=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-e18" edge="1" parent="1" source="pg-s12" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="pg-g5" value="[PlaysGame] 2017-11-12; 720h; peak=62K; spon=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Collaborates" id="page-collaborates">
+    <mxGraphModel dx="1488" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-co" parent="1" style="text;html=1;fontStyle=1;fontSize=16;align=center;" value="EDGE TABLE: Collaborates  (Streamer → Streamer)" vertex="1">
+          <mxGeometry height="28" width="800" x="250" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="xQcOW" vertex="1">
+          <mxGeometry height="50" width="140" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="shroud" vertex="1">
+          <mxGeometry height="50" width="140" x="900" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Ninja" vertex="1">
+          <mxGeometry height="50" width="140" x="580" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="pokimane" vertex="1">
+          <mxGeometry height="50" width="140" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="HasanAbi" vertex="1">
+          <mxGeometry height="50" width="140" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="summit1g" vertex="1">
+          <mxGeometry height="50" width="140" x="900" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="TimTheTatman" vertex="1">
+          <mxGeometry height="50" width="140" x="750" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="DrLupo" vertex="1">
+          <mxGeometry height="50" width="140" x="750" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="valkyrae" vertex="1">
+          <mxGeometry height="50" width="140" x="350" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Disgu.Toast" vertex="1">
+          <mxGeometry height="50" width="140" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s11" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="Anomaly" vertex="1">
+          <mxGeometry height="50" width="140" x="1060" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="co-s12" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;startSize=25;html=1;" value="forsen" vertex="1">
+          <mxGeometry height="50" width="140" x="1060" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e1" edge="1" parent="1" source="co-s3" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s7" value="[Co-stream] 2018-08-15; peak=500K; init=Ninja">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e2" edge="1" parent="1" source="co-s7" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s3" value="[Co-stream] 2018-08-15; peak=500K; init=Ninja">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e3" edge="1" parent="1" source="co-s3" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="co-s8" value="[Tournament] 2020-12-01; peak=320K; init=Ninja">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e4" edge="1" parent="1" source="co-s8" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="co-s3" value="[Tournament] 2020-12-01; peak=320K; init=Ninja">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e5" edge="1" parent="1" source="co-s1" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;fontColor=#b85450;" target="co-s5" value="[Raid] 2021-10-05; peak=85K; init=xQc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e6" edge="1" parent="1" source="co-s4" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s9" value="[Co-stream] 2022-03-20; peak=140K; init=pokimane">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e7" edge="1" parent="1" source="co-s9" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s4" value="[Co-stream] 2022-03-20; peak=140K; init=pokimane">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e8" edge="1" parent="1" source="co-s10" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#9673a6;dashed=1;strokeWidth=2;fontColor=#9673a6;" target="co-s4" value="[Host] 2023-06-11; peak=22K; init=D.Toast">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e9" edge="1" parent="1" source="co-s2" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;fontColor=#b85450;" target="co-s6" value="[Raid] 2021-04-18; peak=55K; init=shroud">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e10" edge="1" parent="1" source="co-s7" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#2E7D32;" target="co-s2" value="[Tournament] 2020-06-07; peak=95K; init=Tim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e11" edge="1" parent="1" source="co-s12" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s11" value="[Co-stream] 2022-11-22; peak=48K; init=forsen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e12" edge="1" parent="1" source="co-s11" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s12" value="[Co-stream] 2022-11-22; peak=48K; init=forsen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e13" edge="1" parent="1" source="co-s5" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontColor=#00008B;" target="co-s1" value="[Co-stream] 2023-02-14; peak=38K; init=HasanAbi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="co-e14" edge="1" parent="1" source="co-s6" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;endArrow=block;endFill=1;strokeColor=#b85450;dashed=1;strokeWidth=2;fontColor=#b85450;" target="co-s2" value="[Raid] 2019-12-31; peak=62K; init=summit1g">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Follows + BelongsTo" id="page-follows-belongsto">
+    <mxGraphModel dx="1768" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="th-f" parent="1" style="text;html=1;fontStyle=1;fontSize=15;align=center;" value="EDGE TABLE: Follows  (Viewer → Streamer)" vertex="1">
+          <mxGeometry height="26" width="600" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="th-bt" parent="1" style="text;html=1;fontStyle=1;fontSize=15;align=center;" value="EDGE TABLE: BelongsTo  (Game → GameCategory)" vertex="1">
+          <mxGeometry height="26" width="700" x="1050" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fv1" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="GamingFan2001" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fv2" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="NordicViewer" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fv3" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="CasualGamer_DE" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="EsportsFan_KR" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fv5" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="SubGifterPro_CA" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="fv6" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="TwitchAddict_BR" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fv7" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="HypeTrainMax_AU" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="fv8" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="LurkerOnly_JP" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="fv9" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="ChatSpammer_MX" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="fv10" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="VodReviewer_PL" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="fv11" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;startSize=22;html=1;" value="StreamWatcher_RU" vertex="1">
+          <mxGeometry height="45" width="150" x="40" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="fs1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Ninja" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fs2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="shroud" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fs3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="pokimane" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fs4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="xQcOW" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fs5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="TimTheTatman" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="fs6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="valkyrae" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="fs7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="HasanAbi" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=10;startSize=22;html=1;" value="forsen" vertex="1">
+          <mxGeometry height="45" width="130" x="560" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="fe1" edge="1" parent="1" source="fv1" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs1" value="[Follows] 2019-03-10; sub=1; gift=5; don=$250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe2" edge="1" parent="1" source="fv1" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs2" value="[Follows] 2020-07-25; sub=1; gift=0; don=$50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3" edge="1" parent="1" source="fv2" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs4" value="[Follows] 2021-01-08; sub=1; gift=20; don=$500">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe4" edge="1" parent="1" source="fv3" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#999999;dashed=1;" target="fs3" value="[Follows] 2018-11-14; sub=0; gift=0; don=$0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe5" edge="1" parent="1" source="fv4" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs2" value="[Follows] 2022-05-03; sub=1; gift=3; don=$120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe6" edge="1" parent="1" source="fv5" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs4" value="[Follows] 2020-09-17; sub=1; gift=50; don=$1200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe7" edge="1" parent="1" source="fv6" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs1" value="[Follows] 2021-06-30; sub=1; gift=8; don=$300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe8" edge="1" parent="1" source="fv7" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs5" value="[Follows] 2023-01-05; sub=1; gift=0; don=$80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe9" edge="1" parent="1" source="fv8" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#999999;dashed=1;" target="fs6" value="[Follows] 2020-03-22; sub=0; gift=0; don=$0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe10" edge="1" parent="1" source="fv9" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs7" value="[Follows] 2020-03-22; sub=1; gift=2; don=$60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe11" edge="1" parent="1" source="fv10" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs8" value="[Follows] 2019-07-04; sub=1; gift=15; don=$450">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe12" edge="1" parent="1" source="fv11" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="fs4" value="[Follows] 2022-12-01; sub=1; gift=0; don=$35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btg1" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Fortnite" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="btg2" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Counter-Strike 2" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="btg3" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Valorant" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="btg4" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="League of Legends" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="btg5" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Minecraft" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="btg6" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Apex Legends" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="btg7" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="World of Warcraft" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="btg8" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Hearthstone" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="btg9" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Among Us" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="btg10" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="GTA V" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="btg11" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Rust" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="btg12" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Dota 2" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="btg13" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Dead by Daylight" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="btg14" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Esc. from Tarkov" vertex="1">
+          <mxGeometry height="45" width="160" x="1050" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="btc1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Battle Royale" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="btc2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="FPS" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="btc3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="MOBA" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="btc4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Survival" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="btc5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Card Games" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="btc6" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="MMO RPG" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="btc7" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Horror" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="btc8" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=10;startSize=22;html=1;" value="Indie" vertex="1">
+          <mxGeometry height="45" width="155" x="1600" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e1" edge="1" parent="1" source="btg1" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc1" value="[BelongsTo] 2017-07-25; rel=0.98; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e2" edge="1" parent="1" source="btg2" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc2" value="[BelongsTo] 2023-03-20; rel=0.99; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e3" edge="1" parent="1" source="btg3" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc2" value="[BelongsTo] 2020-06-02; rel=0.97; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e4" edge="1" parent="1" source="btg4" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc3" value="[BelongsTo] 2009-10-27; rel=1.00; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e5" edge="1" parent="1" source="btg5" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc4" value="[BelongsTo] 2011-11-18; rel=0.85; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e6" edge="1" parent="1" source="btg6" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc1" value="[BelongsTo] 2019-02-04; rel=0.95; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e7" edge="1" parent="1" source="btg7" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc6" value="[BelongsTo] 2004-11-23; rel=0.99; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e8" edge="1" parent="1" source="btg8" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc5" value="[BelongsTo] 2014-03-11; rel=0.98; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e9" edge="1" parent="1" source="btg9" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc8" value="[BelongsTo] 2018-11-16; rel=0.80; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e10" edge="1" parent="1" source="btg10" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc4" value="[BelongsTo] 2013-09-17; rel=0.75; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e11" edge="1" parent="1" source="btg11" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc4" value="[BelongsTo] 2013-12-11; rel=0.92; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e12" edge="1" parent="1" source="btg12" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc2" value="[BelongsTo] 2016-09-28; rel=0.88; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e13" edge="1" parent="1" source="btg13" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc7" value="[BelongsTo] 2016-06-14; rel=0.96; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt-e14" edge="1" parent="1" source="btg14" style="edgeStyle=orthogonalEdgeStyle;fontSize=8;endArrow=block;endFill=1;strokeColor=#d6b656;fontColor=#a66a00;" target="btc3" value="[BelongsTo] 2013-07-09; rel=1.00; primary=1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
